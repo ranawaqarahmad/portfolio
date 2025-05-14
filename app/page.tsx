@@ -81,7 +81,7 @@ export default function Home() {
             <AnimateInView variant="fade-in" delay={200} className="flex justify-center">
               <div className="relative h-[300px] w-[300px] overflow-hidden rounded-full border-4 border-primary/20 dark:border-primary/20">
                 <Image
-                  src="/hero-image.svg?height=600&width=600"
+                  src="./hero-image.svg?height=600&width=600"
                   alt="Profile"
                   fill
                   className="object-cover"
@@ -192,7 +192,7 @@ export default function Home() {
                   <Card className="overflow-hidden transition-all duration-300 hover:shadow-lg hover:translate-y-[-4px]">
                     <div className="aspect-video w-full bg-muted overflow-hidden">
                       <Image
-                        src={`/${project.image}?height=400&width=600&text=Project+${index + 1}`}
+                        src={`./${project.image}?height=400&width=600&text=Project+${index + 1}`}
                         alt={project.title}
                         width={600}
                         height={400}
